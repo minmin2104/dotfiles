@@ -212,6 +212,9 @@ bar {
 exec_always feh --bg-fill "$HOME/Pictures/wallpapers/night-sky-bridge.jpg"
 exec_always picom --backend=glx
 
+for_window [class="Telegram"] border normal
+for_window [class="discord"] border normal
+
 # ----------------------------------------------------------------------------------------------------------------
 # Add this to your i3 config to take a screenshot (selection) and save it to the clipboard just by pressing PrtSc!
 # The resulting file will have this format: screenshot_02-Dec-2021_13-24-21.png
